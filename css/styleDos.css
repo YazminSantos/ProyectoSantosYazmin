@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   background: #45fdf4; }
@@ -5,7 +6,9 @@ body {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 15% 60% 25%;
-    grid-template-areas: "nav nav nav nav" "imgLogo titulo titulo titulo" "pagina pagina bandera imgbandera";
+    grid-template-areas: "nav nav nav nav"
+ "imgLogo titulo titulo titulo"
+ "pagina pagina bandera imgbandera";
     grid-area: header;
     height: 100%;
     background-image: url("../Img/FonndCol1.jpg");
@@ -72,7 +75,9 @@ body {
   .divgrilla {
     grid-template-columns: 100%;
     grid-template-rows: 15% 75% 10%;
-    grid-template-areas: "header" "main" "footer"; }
+    grid-template-areas: "header"
+ "main"
+ "footer"; }
   .pagina {
     font-size: 30px; }
   .Intro {
@@ -169,7 +174,9 @@ body {
   .divgrilla {
     grid-template-columns: 100%;
     grid-template-rows: 15% 76% 9%;
-    grid-template-areas: "header" "main" "footer"; }
+    grid-template-areas: "header"
+ "main"
+ "footer"; }
   .imgxcar {
     margin-bottom: 0px;
     margin-top: 2px; }
@@ -277,7 +284,9 @@ body {
   .divgrilla {
     grid-template-columns: 100%;
     grid-template-rows: 15% 76% 9%;
-    grid-template-areas: "header" "main" "footer"; }
+    grid-template-areas: "header"
+ "main"
+ "footer"; }
   .imgTit {
     width: 130px;
     height: 120px;
@@ -475,7 +484,11 @@ h1 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 20% 20% 20% 20% 20%;
-  grid-template-areas: "parrafo1 imagen1" "parrafo2 imagen2" "parrafo3 imagen3" "parrafo4 imagen4" "parrafo4 video";
+  grid-template-areas: "parrafo1 imagen1"
+ "parrafo2 imagen2"
+ "parrafo3 imagen3"
+ "parrafo4 imagen4"
+ "parrafo4 video";
   margin-left: 5%;
   margin-top: 0; }
 
@@ -527,7 +540,11 @@ h1 {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 25% 7% 30% 28% 10%;
-  grid-template-areas: "parr1" "tit" "parr2" "imgA" "form";
+  grid-template-areas: "parr1"
+ "tit"
+ "parr2"
+ "imgA"
+ "form";
   margin-left: 5%; }
 
 .tit {
