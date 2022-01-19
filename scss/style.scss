@@ -40,8 +40,9 @@ body{
     .grilla_header{
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 15% 60% 25%;
+        grid-template-rows: 30% 10% 45% 15%;
         grid-template-areas:"nav nav nav nav"
+                            "nav nav nav nav"
                             "imgLogo titulo titulo titulo"
                             "pagina pagina bandera imgbandera";
         grid-area: header;
@@ -49,18 +50,20 @@ body{
         background-image: url($FondoNav);
         background-size: cover;
         padding: 0;
+        margin: 0;
+        
         nav{
             grid-area: nav;
-            height: 100%;
+           /* height: 100%;
             margin:0 ;
-            padding: 0;
+            padding: 0;*/
         
-            ul{
+            /*ul{
                 list-style-type: none;
                 height: 100%;
                 padding: 0;
                 margin: 0;}
-                /*margin-top: 3px;
+                margin-top: 3px;
                 margin-bottom: 0;
             }
             li{
@@ -394,7 +397,7 @@ body{
     }
     .imgBan{
         width: 55px;
-        height: 40px;
+        height: 45px;
         transform: skew(-8deg);
     }
     .imgTit{
@@ -412,7 +415,7 @@ body{
                             "footer";
     }
     .pagina{
-        font-size: 30px;
+        font-size: 25px;
     }
     .Intro{
         font-size: 23px;

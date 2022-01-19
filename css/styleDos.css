@@ -4,19 +4,25 @@ body {
   body .grilla_header {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 15% 60% 25%;
-    grid-template-areas: "nav nav nav nav" "imgLogo titulo titulo titulo" "pagina pagina bandera imgbandera";
+    grid-template-rows: 30% 10% 45% 15%;
+    grid-template-areas: "nav nav nav nav" "nav nav nav nav" "imgLogo titulo titulo titulo" "pagina pagina bandera imgbandera";
     grid-area: header;
     height: 100%;
     background-image: url("../Img/FonndCol1.png");
     background-size: cover;
-    padding: 0; }
+    padding: 0;
+    margin: 0; }
     body .grilla_header nav {
       grid-area: nav;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      /*margin-top: 3px;
+      /* height: 100%;
+            margin:0 ;
+            padding: 0;*/
+      /*ul{
+                list-style-type: none;
+                height: 100%;
+                padding: 0;
+                margin: 0;}
+                margin-top: 3px;
                 margin-bottom: 0;
             }
             li{
@@ -24,11 +30,6 @@ body {
                 display: inline;
                 padding: 0;
             }*/ }
-      body .grilla_header nav ul {
-        list-style-type: none;
-        height: 100%;
-        padding: 0;
-        margin: 0; }
     body .grilla_header .pagina {
       grid-area: pagina;
       margin: 0;
@@ -282,7 +283,7 @@ body {
     font-weight: 700; }
   .imgBan {
     width: 55px;
-    height: 40px;
+    height: 45px;
     transform: skew(-8deg); }
   .imgTit {
     width: 80px;
@@ -295,7 +296,7 @@ body {
     grid-template-rows: 15% 75% 10%;
     grid-template-areas: "header" "main" "footer"; }
   .pagina {
-    font-size: 30px; }
+    font-size: 25px; }
   .Intro {
     font-size: 23px; }
   .xcaret1 {
