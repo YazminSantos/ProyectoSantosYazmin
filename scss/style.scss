@@ -48,7 +48,6 @@ body{
         height: 100%;
         background-image: url($FondoNav);
         background-size: cover;
-        position: relative;
         padding: 0;
         nav{
             grid-area: nav;
@@ -399,8 +398,8 @@ body{
         transform: skew(-8deg);
     }
     .imgTit{
-        width: 100px;
-        height: 85px;
+        width: 80px;
+        height: 78px;
         animation-name: borroso;
         animation-duration: 1.5s;
         animation-iteration-count: 1;

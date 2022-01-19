@@ -10,7 +10,6 @@ body {
     height: 100%;
     background-image: url("../Img/FonndCol1.png");
     background-size: cover;
-    position: relative;
     padding: 0; }
     body .grilla_header nav {
       grid-area: nav;
@@ -286,8 +285,8 @@ body {
     height: 40px;
     transform: skew(-8deg); }
   .imgTit {
-    width: 100px;
-    height: 85px;
+    width: 80px;
+    height: 78px;
     animation-name: borroso;
     animation-duration: 1.5s;
     animation-iteration-count: 1; }
