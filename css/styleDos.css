@@ -4,8 +4,8 @@ body {
   body .grilla_header {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 30% 10% 45% 15%;
-    grid-template-areas: "nav nav nav nav" "nav nav nav nav" "imgLogo titulo titulo titulo" "pagina pagina bandera imgbandera";
+    grid-template-rows: 30% 55% 15%;
+    grid-template-areas: "nav nav nav nav" "imgLogo titulo titulo titulo" "pagina pagina bandera imgbandera";
     grid-area: header;
     height: 100%;
     background-image: url("../Img/FonndCol1.png");
@@ -13,7 +13,8 @@ body {
     padding: 0;
     margin: 0; }
     body .grilla_header nav {
-      grid-area: nav; }
+      grid-area: nav;
+      height: 100%; }
     body .grilla_header .pagina {
       grid-area: pagina;
       margin: 0;
@@ -49,12 +50,12 @@ body {
   body .divgrilla {
     display: grid;
     background-color: #5e93c5;
-    height: 1200px; }
+    height: 2500px; }
   body main {
     grid-area: main;
     background-image: url("../Img/FondoMa.png");
     background-size: cover;
-    /*height: 100%;*/
+    height: 100%;
     padding-top: 0%;
     /*div.IntroP p{
              @include negritas();
@@ -65,7 +66,8 @@ body {
       border: 1px solid #75360c;
       width: 80%;
       height: 70%;
-      margin-left: 10%; }
+      margin-left: 10%;
+      margin-bottom: 0; }
     body main .Intro {
       display: flex;
       flex-direction: column;
@@ -282,13 +284,13 @@ body {
   .pagina {
     font-size: 25px; }
   .Intro {
-    font-size: 23px; }
+    font-size: 18px; }
   .xcaret1 {
     width: 350px;
     height: 260px; }
   .xcaret {
-    width: 160px;
-    height: 150px;
+    width: 140px;
+    height: 120px;
     margin-top: 7%; }
   #Comentarios {
     width: 100px;
