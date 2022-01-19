@@ -13,23 +13,7 @@ body {
     padding: 0;
     margin: 0; }
     body .grilla_header nav {
-      grid-area: nav;
-      /* height: 100%;
-            margin:0 ;
-            padding: 0;*/
-      /*ul{
-                list-style-type: none;
-                height: 100%;
-                padding: 0;
-                margin: 0;}
-                margin-top: 3px;
-                margin-bottom: 0;
-            }
-            li{
-                display: flex;
-                display: inline;
-                padding: 0;
-            }*/ }
+      grid-area: nav; }
     body .grilla_header .pagina {
       grid-area: pagina;
       margin: 0;
@@ -458,7 +442,7 @@ body {
   .titulo {
     font-size: 50px; }
   .pagina {
-    font-size: 35px; }
+    font-size: 26px; }
   .Mapa {
     height: 280px;
     width: 350px;
@@ -590,7 +574,7 @@ body {
   .pmex {
     font-size: 35px; }
   .pagina {
-    font-size: 45px; }
+    font-size: 29px; }
   .imgBan {
     width: 77px;
     height: 45px;
